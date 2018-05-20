@@ -1,4 +1,4 @@
-# pysas
+# PySAS
 Python Simple Auto Surfer
 
 ## Features
@@ -12,6 +12,11 @@ Python Simple Auto Surfer
 - psutil
 - requests (only for native browser)
 
+## Get PySAS
+```
+cd
+git clone https://github.com/dzmodest/pysas.git && cd pysas
+```
 ## Configuration
 ##### input/output settings
 ```
