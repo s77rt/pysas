@@ -122,7 +122,7 @@ try:
 					done=1
 					break
 			if done == 1: break
-			with open(urls_tmp, "a+r") as tmpfile:
+			with open(urls_tmp, "a+") as tmpfile:
 				tmpfile.write(url+"\n")
 			b=0;
 			t=len([name for name in os.listdir(tmp_dir) if os.path.isfile(os.path.join(tmp_dir, name))])
@@ -144,7 +144,7 @@ try:
 				if have==0 and open_x_site_at_the_same_time !=0 :
 					if wait_y_seconds_before_closing_x_sites !=0 or c == 0:
 						#os.system(path+" &> /dev/null &")
-						process = subprocess.Popen([bin, params], shell=False, stdin=FNULL, stdout=FNULL, stderr=FNULL)
+						process = subprocess.Popen([bin, params, "--window-size=50,100"], shell=False, stdin=FNULL, stdout=FNULL, stderr=FNULL)
 						time.sleep(init_time)
 
 				togo.append(url)
