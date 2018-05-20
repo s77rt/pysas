@@ -32,7 +32,7 @@ firefox_params="--window-size=50,100"
 chrome_bin="/opt/google/chrome/google-chrome"
 chrome_params="--incognito"
 ```
-##### surfing settings (firefox/chrome)
+##### surfing settings
 ```
 open_x_site_at_the_same_time=2
 open_sites_each_x_seconds=15
