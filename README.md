@@ -26,10 +26,10 @@ tmp_dir="tmp/"
 ```
 ##### browser settings
 ```
-firefox_bin="/usr/bin/firefox"
+firefox_bin="/usr/bin/firefox" #firefox_bin="C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
 firefox_params="--window-size=50,100"
 
-chrome_bin="/opt/google/chrome/google-chrome"
+chrome_bin="/opt/google/chrome/google-chrome" #chrome_bin="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 chrome_params="--incognito"
 ```
 ##### surfing settings
