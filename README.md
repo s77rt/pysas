@@ -116,4 +116,4 @@ Init time: 10
 made with :heart: by [abdelhafidh.com](http://abdelhafidh.com)
 
 # License
-Python Simple Auto Surfer is released under [MIT licence](https://github.com/dzmodest/pysas/blob/master/LICENSE).
+Python Simple Auto Surfer is released under [General Public License v3.0](https://github.com/dzmodest/pysas/blob/master/LICENSE).
