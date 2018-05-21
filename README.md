@@ -8,7 +8,7 @@ Python Simple Auto Surfer
 - ..(read below)
 
 ## Requirements
-- Python
+- Python 2.7
 - psutil
 - requests (for native browser)
 
