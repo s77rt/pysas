@@ -10,7 +10,7 @@ Python Simple Auto Surfer
 ## Requirements
 - Python
 - psutil
-- requests (only for native browser)
+- requests (for native browser)
 
 ## Get PySAS
 ```
