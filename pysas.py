@@ -164,7 +164,8 @@ try:
 				try:
 					kill(process.pid)
 				except:
-					print("\n[!] Failed to kill process")
+					#print("\n[!] Failed to kill process")
+					pass
 		if done == 1:
 			if batch>1: os.remove(urls_tmp)
 			c+=1
