@@ -1,17 +1,20 @@
-#input/output settings
-urls="urls.txt"
-urls_tmp="urls_tmp.txt"
-tmp_dir="tmp/"
+#!/usr/bin/env python
+# coding: utf-8
 
-#browser settings
-firefox_bin="/usr/bin/firefox" #firefox_bin="C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
-firefox_params="--window-size=50,100"
+# input/output settings
+urls = "urls.txt"
+urls_tmp = "urls_tmp.txt"
+tmp_dir = "tmp/"
 
-chrome_bin="/opt/google/chrome/google-chrome" #chrome_bin="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-chrome_params="--incognito"
+# browser settings
+firefox_bin = "/usr/bin/firefox"  # firefox_bin="C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
+firefox_params = "--window-size=50,100"
 
-#surfing settings
-open_x_site_at_the_same_time=2
-open_sites_each_x_seconds=15
-wait_y_seconds_before_closing_x_sites=4 # 0 to keep
-init_time=10
+chrome_bin = "/opt/google/chrome/google-chrome"  # chrome_bin="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+chrome_params = "--incognito"
+
+# surfing settings
+open_x_site_at_the_same_time = 2
+open_sites_each_x_seconds = 15
+wait_y_seconds_before_closing_x_sites = 4  # 0 to keep
+init_time = 10
